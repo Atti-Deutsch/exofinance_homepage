@@ -1,0 +1,44 @@
+/* text colors*/
+.text-primary {
+    color: #47ee6e;
+}
+
+.text-secondary {
+    color: #0284d0;
+}
+
+/* BUTTON */
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    padding: 0.625rem 1.875rem;
+    color: white;
+    background-color:#42ac5a;
+    border-radius: 0.3125rem;
+}
+
+.btn:hover {
+    background-color: limegreen;
+}
+
+.btn-primary {
+    background: #47ee6e;
+    color: white;
+}
+
+.btn-secondary {
+    background: #0284d0;
+    color: white;
+}
+
+.btn-dark {
+    background: #333;
+    color: white;
+}
+
+.btn-light {
+    background: #f4f4f4;;
+    color: #333;
+}
+
+
