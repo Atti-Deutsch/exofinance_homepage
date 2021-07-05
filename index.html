@@ -9,12 +9,13 @@
         integrity="sha256-h20CPZ0QyXlBuAw7A+KluUYx/3pK+c7lYEpqLTlxjYQ=" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="utility.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
 
     <title>Welcome to ExO your Finance Partner</title>
 </head>
 <body id="home">
     <header class="hero">
-        <div id="navbar" class="navbar">
+        <div id="navbar" class="navbar top">
             <h1 class="logo">
                 <span class="text-primary"><i class="fas fa-book-open"> Exo</i>Finance</span>
             </h1>
@@ -28,6 +29,7 @@
                 </ul>
             </nav>
         </div>
+            
         <div class="content">
             <h1>The Sky Is The Limit</h1>
             <p>We provide world class finacial assistance</p>
@@ -72,16 +74,20 @@
             <div class="row">
                 <div class="column">
                     <div class="column-1">
-                        <img src="home/people.jpg" alt="">
+                        <img src="img/home/people.jpg" alt="">
                     </div>
                 </div>
                 <div class="column">
                     <div class="column-2 bg-primary">
                         <h4>What you are looking for</h4>
                         <h2>We provide bespoke solutions</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cum incidunt mollitia obcaecati commodi culpa repellat molestias consequuntur expedita nisi quibusdam accusantium, fugit dicta, voluptatibus fugiat? Sit aliquam eum reiciendis?</p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic cum incidunt mollitia obcaecati commodi
+                            culpa repellat molestias consequuntur expedita nisi quibusdam accusantium, fugit dicta, voluptatibus
+                            fugiat? Sit aliquam eum reiciendis?
+                        </p>
                         <a href="#" class="btn btn-outline">
-                        <i class="fas fa-chevron"></i>
+                            <i class="fas fa-chevron"></i>
                             Read More
                         </a>
                     </div>
@@ -99,22 +105,44 @@
             </header>
             <div class="row">
                 <div class="column">
-                    <img src="cases/cases1.jpg" alt="">
-                    <img src="cases/cases2.jpg" alt="">
+                <a href="img/cases/cases1.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                    <img src="img/cases/cases1.jpg" alt="">
+                </a>
+                <a href="img/cases/cases2.jpg" data-lightbox="cases" data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                    <img src="img/cases/cases2.jpg" alt="">
+                </a>
                 </div>
                 <div class="column">
-                    <img src="cases/cases3.jpg" alt="">
-                    <img src="cases/cases4.jpg" alt="">
+                <a href="img/cases/cases3.jpg" data-lightbox="cases"
+                    data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                    <img src="img/cases/cases3.jpg" alt="">
+                </a>
+                <a href="img/cases/cases4.jpg" data-lightbox="cases"
+                    data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                    <img src="img/cases/cases4.jpg" alt="">
+                </a>
                 </div>
                 <div class="column">
-                    <img src="cases/cases5.jpg" alt="">
-                    <img src="cases/cases6.jpg" alt="">
+                <a href="img/cases/cases5.jpg" data-lightbox="cases"
+                    data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                    <img src="img/cases/cases5.jpg" alt="">
+                </a>
+                <a href="img/cases/cases6.jpg" data-lightbox="cases"
+                    data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                    <img src="img/cases/cases6.jpg" alt="">
+                </a>
                 </div>
                 <div class="column">
-                    <img src="cases/cases7.jpg" alt="">
-                    <img src="cases/cases8.jpg" alt="">
+                <a href="img/cases/cases7.jpg" data-lightbox="cases"
+                    data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                    <img src="img/cases/cases7.jpg" alt="">
+                </a>
+                <a href="img/cases/cases8.jpg" data-lightbox="cases"
+                    data-title="Lorem ipsum dolor sit amet consectetur adipisicing elit.">
+                    <img src="img/cases/cases8.jpg" alt="">
+                </a>
                 </div>
-            </div>
+            </div>  
         </section>
 
         <!-- BLOG -->
@@ -122,7 +150,7 @@
             <div class="row">
                 <div class="column">
                     <div class="column-1">
-                        <img src="home/blog.jpg" alt="">
+                        <img src="img/home/blog.jpg" alt="">
                     </div>
                 </div>
                 <div class="column">
@@ -130,7 +158,7 @@
                         <h4>July 2 2021</h4>
                         <h2>Latest Blog Post</h2>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit excepturi ex ipsa aliquam, inventore aspernatur recusandae, laborum neque esse dolorem facere sapiente? Reprehenderit sapiente tempore cum exercitationem, maiores expedita ullam.</p>
-                        <a href="#" class="btn btn-outline">
+                        <a href="blog.html" class="btn btn-outline">
                             <i class="fas fa-chevron"></i>
                             Read Our Blog
                         </a>
@@ -150,17 +178,17 @@
             </header>
             <div class="flex-items">
                 <div>
-                    <img src="team/person1.jpg" alt="">
+                    <img src="img/team/person1.jpg" alt="">
                     <h4>Ron Davidson</h4>
                     <p>CEO</p>
                 </div>
                 <div>
-                    <img src="team/person2.jpg" alt="">
+                    <img src="img/team/person2.jpg" alt="">
                     <h4>Lena Meier</h4>
                     <p>COO</p>
                 </div>
                 <div>
-                    <img src="team/person3.jpg" alt="">
+                    <img src="img/team/person3.jpg" alt="">
                     <h4>Ian McManus</h4>
                     <p>Marketing Head</p>
                 </div>
@@ -172,7 +200,7 @@
             <div class="row">
                 <div class="column">
                     <div class="column-1">
-                        <img src="home/contact.jpg" alt="">
+                        <img src="img/home/contact.jpg" alt="">
                     </div>
                 </div>
                 <div class="column">
@@ -181,15 +209,30 @@
                         <form action="" class="callback-form">
                             <div class="form-control">
                                 <label for="name"></label>
-                                <input type="text" name="name" id="name" placeholder="Enter name">
+                                <input
+                                    type="text"
+                                    name="name" 
+                                    id="name" 
+                                    placeholder="Enter name" 
+                                />
                             </div>
                             <div class="form-control">
                                 <label for="email"></label>
-                                <input type="email" name="email" id="email" placeholder="Enter email">
+                                <input 
+                                    type="email" 
+                                    name="email" 
+                                    id="email" 
+                                    placeholder="Enter email" 
+                                />
                             </div>
                             <div class="form-control">
                                 <label for="phone"></label>
-                                <input type="text" name="phone" id="phone" placeholder="Enter phone nr">
+                                <input 
+                                    type="text" 
+                                    name="phone" 
+                                    id="phone" 
+                                    placeholder="Enter phone nr" 
+                                />
                             </div>
                             <input type="submit" value="Send" id="submit" class="btn">
                         </form>
@@ -198,5 +241,18 @@
             </div>
         </section>
     </main>
+    <footer class="footer bg-dark">
+        <div class="social">
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-youtube fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin fa-2x"></i></a>
+        </div>
+        <p>Copyright &copy; 2021 ExoFinance Ltd</p>
+    </footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/lightbox.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

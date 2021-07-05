@@ -14,6 +14,7 @@
     padding: 0.625rem 1.875rem;
     color: white;
     background-color:#42ac5a;
+    border: none;
     border-radius: 0.3125rem;
 }
 
@@ -67,6 +68,7 @@
 
 .flex-columns .row {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
 }
